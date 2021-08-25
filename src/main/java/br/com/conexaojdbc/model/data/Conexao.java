@@ -14,13 +14,13 @@ public class Conexao {
     private String DRIVER = "com.mysql.cj.jdbc.Driver";
 
     // Caminho do banco dentro da maquina ou do servidor:
-    private static final String DATABASE_URL = "jdbc:mysql://127.0.0.1:3306/zoo?useTimezone=true&serverTimezone=UTC";
+    private static final String DATABASE_URL = "jdbc:mysql://127.0.0.1:3306/store?useTimezone=true&serverTimezone=UTC";
 
     // Usuario do banco:
     private static final String USERNAME = "root";
 
     // Senha do Banco:
-    private static final String PASSWORD = "";
+    private static final String PASSWORD = "12345";
 
     public Conexao() throws ClassNotFoundException, SQLException {
         Class.forName(DRIVER);
